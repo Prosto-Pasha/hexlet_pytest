@@ -11,4 +11,6 @@ jobs:
         run: |
           pip install poetry
           make install
-      - run: make test-coverage
+      - name: Run tests
+        run: |
+          make test-coverage
