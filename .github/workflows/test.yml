@@ -4,4 +4,4 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - run: make say-hello
+      - run: make test-coverage
