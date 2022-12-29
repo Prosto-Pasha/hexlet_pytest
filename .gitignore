@@ -1,0 +1,7 @@
+
+# Environments
+/venv/
+/.pytest_cache/
+
+# PyCharm
+/.idea/
