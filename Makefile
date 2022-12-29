@@ -1,5 +1,5 @@
-say-hello:
-	echo 'Hello, World!'
+install:
+	make install
 
 test-coverage:
 	poetry run pytest --cov

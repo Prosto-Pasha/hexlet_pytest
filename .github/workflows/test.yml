@@ -1,7 +1,14 @@
 name: Workflows test
+
 on: push
+
 jobs:
-  hello:
+  build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          pip install poetry
+          make install
       - run: make test-coverage
